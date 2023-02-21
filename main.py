@@ -21,7 +21,7 @@ books = soup.find_all(id="gridItemRoot")
 book = books[0]
 rank = book.find('span', class_= 'zg-bdg-text').text
     [1:]
-
+title = <div class="_cDEzb_p13n-sc-css-line-clamp-1_1Fn1y">Love from the Crayons</div>
 #get info from first book
 print(books[0].prettify())
 print(rank)
